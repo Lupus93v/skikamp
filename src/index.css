@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: auto
+}
+
+body {
+  max-width: 480px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}

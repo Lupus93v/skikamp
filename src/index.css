@@ -6,14 +6,26 @@
 body {
   max-width: 480px;
   margin: auto;
+  border: solid black 1px;
 }
 
 header {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
 .nav {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+}
+
+p {
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }

@@ -21,6 +21,9 @@ export default function Header() {
                 <NavLink>
                     Спонзори
                 </NavLink>
+                <NavLink>
+                    О Влашићу
+                </NavLink>
             </nav>
         </header>
     )

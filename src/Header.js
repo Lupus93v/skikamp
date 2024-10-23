@@ -4,7 +4,7 @@ import logo from "./Pictures/logo.jpg"
 
 export default function Header() {
     return (
-        <header>
+        <header className="header">
             <Link to="/">
                 <img src={logo} alt="Ски Сњешко" style={{ width: '100px', height: 'auto' }} />
             </Link>

@@ -4,12 +4,12 @@
 }
 
 body {
-  max-width: 480px;
   margin: auto;
   border: solid black 1px;
+  margin-top: 1em;
 }
 
-header {
+.header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -19,6 +19,11 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: black;
+  color: whitesmoke;
+  width: 100%;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
 }
 
 p {
@@ -28,4 +33,25 @@ p {
   margin-top: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+NavLink {
+  color: whitesmoke;
+}
+
+@media screen and (min-width: 480px) {
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+
 }

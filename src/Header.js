@@ -1,5 +1,6 @@
 import React from "react"
-import {Link, NavLink} from "react-router-dom"
+import DropdownMenu from "./components/DropdownMenu"
+import {Link} from "react-router-dom"
 
 export default function Header() {
     return (
@@ -9,26 +10,7 @@ export default function Header() {
                     <img src="/Pictures/logo.jpg" alt="Ски Сњешко" style={{ width: '100px', height: 'auto' }} />
             </Link>
             </div>
-            <nav className="nav">
-                <NavLink className="navLink">
-                    Почетна
-                </NavLink>
-                <NavLink className="navLink">
-                    Понуда
-                </NavLink>
-                <NavLink className="navLink">
-                    Галерија
-                </NavLink>
-                <NavLink className="navLink">
-                    Пријатељи клуба
-                </NavLink>
-                <NavLink className="navLink">
-                    О нама
-                </NavLink>
-                <NavLink className="navLink">
-                    Тренери и контакт
-                </NavLink>
-            </nav>
+            <DropdownMenu />
         </header>
     )
         

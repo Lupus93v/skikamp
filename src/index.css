@@ -9,8 +9,8 @@ body {
 }
 
 .header {
+  background-color: black;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
@@ -49,6 +49,9 @@ body {
   max-width: 100%;
 }
 
+.footer {
+  margin-bottom: 0px;
+}
 
 p {
   text-align: center;

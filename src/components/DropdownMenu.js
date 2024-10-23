@@ -30,23 +30,8 @@ export default function DropdownMenu() {
             borderRadius: "1px",
             width: "150px",
         },
-        dropdownItem: {
-            padding: "10px 20px",
-            display: "block",
-            color: "#333",
-            textDecoration: "none",
-            transition: "text-decoration 0.3s ease",
-        },
-    };
+    }
 
-
-const dropdownItemHoverStyle = {
-    textDecoration: "underline",
-  };
-  
-  Object.assign(styles.dropdownItem, {
-    ":hover": dropdownItemHoverStyle,
-  });
 
     return (
         <div style={{ position: "relative", display: "inline-block" }}>
@@ -54,12 +39,12 @@ const dropdownItemHoverStyle = {
 {
         isOpen && (
             <div style={styles.dropdown}>
-                <NavLink style={styles.dropdownItem} to="/">Почетна</NavLink>
-                <NavLink style={styles.dropdownItem} to="/">Понуда</NavLink>
-                <NavLink style={styles.dropdownItem} to="/">Галерија</NavLink>
-                <NavLink style={styles.dropdownItem} to="/">Пријатељи клуба</NavLink>
-                <NavLink style={styles.dropdownItem} to="/">О нама</NavLink>
-                <NavLink style={styles.dropdownItem} to="/">О Влашићу</NavLink>
+                <NavLink className="dropdownItem" to="/">Почетна</NavLink>
+                <NavLink className="dropdownItem" to="/">Понуда</NavLink>
+                <NavLink className="dropdownItem" to="/">Галерија</NavLink>
+                <NavLink className="dropdownItem" to="/">Пријатељи клуба</NavLink>
+                <NavLink className="dropdownItem" to="/">О нама</NavLink>
+                <NavLink className="dropdownItem" to="/">О Влашићу</NavLink>
             </div>
         )
     }

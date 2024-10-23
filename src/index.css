@@ -62,13 +62,26 @@ p {
   padding-bottom: 5px;
 }
 
+.dropdownItem {
+  padding: 10px 20px;
+  display: block;
+  color: black;
+  text-decoration: none;
+  transition: "text-decoration" 0.3s ease;
+}
+
+.dropdownItem:hover {
+  text-decoration: underline;
+}
+
+
 @media screen and (min-width: 480px) {
 
   .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: white;
+    background-color: black;
   }
 
   .nav {

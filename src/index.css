@@ -58,10 +58,6 @@ p {
   padding-bottom: 5px;
 }
 
-NavLink {
-  color: whitesmoke;
-}
-
 @media screen and (min-width: 480px) {
 
   .header {

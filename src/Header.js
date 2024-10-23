@@ -1,13 +1,12 @@
 import React from "react"
 import {Link, NavLink} from "react-router-dom"
-import logo from "./Pictures/logo.jpg"
 
 export default function Header() {
     return (
         <header className="header">
-            <div className="img-container">
+            <div className="logo-container">
             <Link to="/">
-                    <img src={logo} alt="Ски Сњешко" style={{ width: '100px', height: 'auto' }} />
+                    <img src="/Pictures/logo.jpg" alt="Ски Сњешко" style={{ width: '100px', height: 'auto' }} />
             </Link>
             </div>
             <nav className="nav">

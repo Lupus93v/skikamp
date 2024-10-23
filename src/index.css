@@ -61,18 +61,29 @@ p {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-
 .dropdownItem {
   padding: 10px 20px;
   display: inline-block;
   color: #333;
+  position: relative;
   text-decoration: none;
-  transition: text-decoration 0.3s ease;
 }
 
-.dropdownItem:hover {
-  text-decoration: underline;
+.dropdownItem::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease; /* Controls the animation effect */
 }
+
+.dropdownItem:hover::after {
+  width: 100%; /* On hover, the underline will stretch to the full width */
+}
+
 
 
 @media screen and (min-width: 480px) {

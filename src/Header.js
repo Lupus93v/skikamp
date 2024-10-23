@@ -12,19 +12,22 @@ export default function Header() {
             </div>
             <nav className="nav">
                 <NavLink className="navLink">
+                    Почетна
+                </NavLink>
+                <NavLink className="navLink">
                     Понуда
                 </NavLink>
                 <NavLink className="navLink">
-                    Фото и видео
+                    Галерија
+                </NavLink>
+                <NavLink className="navLink">
+                    Пријатељи клуба
                 </NavLink>
                 <NavLink className="navLink">
                     О нама
                 </NavLink>
                 <NavLink className="navLink">
-                    Спонзори
-                </NavLink>
-                <NavLink className="navLink">
-                    О Влашићу
+                    Тренери и контакт
                 </NavLink>
             </nav>
         </header>

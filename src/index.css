@@ -7,23 +7,46 @@ body {
   margin: auto;
   border: solid black 1px;
   margin-top: 1em;
+  background-color: whitesmoke;
 }
 
 .header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: black;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+}
+
+.header .img-container {
+  background-color: white;
+  border-radius: 50px;
+  padding: 1em;
 }
 
 .nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: black;
-  color: whitesmoke;
+  align-items: center;
+  background-color: whitesmoke;
   width: 100%;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
+  margin-top: 2em;
+}
+
+.navLink {
+  text-decoration: none;
+  color: black;
+  background-color: whitesmoke;
+  border: solid black 1px;
+  width: 35%;
+  text-align: center;
+  margin: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 p {
@@ -53,5 +76,14 @@ NavLink {
     justify-content: space-between;
   }
 
+  .navLink {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  .navLink:hover {
+    background-color: black;
+    color: whitesmoke;
+  }
 
 }

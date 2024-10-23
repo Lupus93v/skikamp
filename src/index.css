@@ -65,9 +65,9 @@ p {
 .dropdownItem {
   padding: 10px 20px;
   display: block;
-  color: black;
+  color: #333;
   text-decoration: none;
-  transition: "text-decoration" 0.3s ease;
+  transition: text-decoration 0.3s ease;
 }
 
 .dropdownItem:hover {

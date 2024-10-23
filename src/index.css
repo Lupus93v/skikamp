@@ -12,7 +12,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: black;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
 }
@@ -40,6 +39,16 @@ body {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
+
+
+.home-pic-container {
+  max-width: 60%;
+}
+
+.home-pic-container img {
+  max-width: 100%;
+}
+
 
 p {
   text-align: center;

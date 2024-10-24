@@ -5,8 +5,8 @@ export default function AboutUs() {
 
     return (
         <div>
-            <NavLink path="." end>Тренери</NavLink>
-            <NavLink path="AboutClub">О Удружењу и школи</NavLink>
+            <NavLink to="." end>Тренери</NavLink>
+            <NavLink to="AboutClub">О Удружењу и школи</NavLink>
             <Outlet />
         </div>
     )

@@ -28,13 +28,17 @@ body {
   padding-bottom: 0.5em;
 }
 
-
-.home-pic-container {
-  max-width: 60%;
+.home-page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.home-pic-container img {
-  max-width: 100%;
+.home-pic-container {
+  margin-top: 2em;
+  width: 30%;
+  flex-grow: 1;
+  border: solid red 1px;
 }
 
 .footer {

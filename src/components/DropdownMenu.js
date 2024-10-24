@@ -10,6 +10,10 @@ export default function DropdownMenu() {
         setIsOpen(!isOpen)
     })
 
+    const closeDropdown = () => {
+        setIsOpen(false)
+    }
+
 
     const styles = {
         button: {
@@ -39,12 +43,12 @@ export default function DropdownMenu() {
 {
         isOpen && (
             <div style={styles.dropdown}>
-                <NavLink className="dropdownItem" to="/">Почетна</NavLink>
-                <NavLink className="dropdownItem" to="/offer">Понуда</NavLink>
-                <NavLink className="dropdownItem" to="/gallery">Галерија</NavLink>
-                <NavLink className="dropdownItem" to="/sponsors">Пријатељи клуба</NavLink>
-                <NavLink className="dropdownItem" to="/aboutus">О нама</NavLink>
-                <NavLink className="dropdownItem" to="/aboutvlasic">О Влашићу</NavLink>
+                <NavLink className="dropdownItem" to="/" onClick={closeDropdown}>Почетна</NavLink>
+                <NavLink className="dropdownItem" to="/offer" onClick={closeDropdown}>Понуда</NavLink>
+                <NavLink className="dropdownItem" to="/gallery" onClick={closeDropdown}>Галерија</NavLink>
+                <NavLink className="dropdownItem" to="/sponsors" onClick={closeDropdown}>Пријатељи клуба</NavLink>
+                <NavLink className="dropdownItem" to="/aboutus" onClick={closeDropdown}>О нама</NavLink>
+                <NavLink className="dropdownItem" to="/aboutvlasic" onClick={closeDropdown}>О Влашићу</NavLink>
             </div>
         )
     }

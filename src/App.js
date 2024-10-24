@@ -16,13 +16,14 @@ export default function App() {
       <Routes>
         <Route path="/" element={<PageLayout />}>
           <Route index element={<HomePage />} />
-          <Route path="/offer" element={<Offer />}/>
-          <Route path="/gallery" element={<Gallery />}/>
-          <Route path="/sponsors" element={<Sponsors />}/>
-          <Route path="/aboutus" element={<AboutUs />}/>
+          <Route path="offer" element={<Offer />} />
+          <Route path="gallery" element={<Gallery />} />
+          <Route path="sponsors" element={<Sponsors />} />
+          <Route path="aboutus" element={<AboutUs />}>
             <Route index element={<Coaches />} />
             <Route path="aboutclub" element={<AboutClub />} />
-          <Route path="aboutvlasic" element={<AboutVlasic />}/>
+          </Route>
+          <Route path="aboutvlasic" element={<AboutVlasic />} />
         </Route>
       </Routes>
     </BrowserRouter>

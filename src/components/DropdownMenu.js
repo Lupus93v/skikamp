@@ -38,7 +38,7 @@ export default function DropdownMenu() {
 
 
     return (
-        <div style={{ position: "relative", display: "inline-block" }}>
+        <div className="menu-button">
             <button onClick={toggleDropdown} style={styles.button}>Мени</button>
 {
         isOpen && (

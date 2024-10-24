@@ -16,18 +16,6 @@ body {
   padding-bottom: 0.7em;
 }
 
-.nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
-  width: 100%;
-  padding-top: 0.7em;
-  padding-bottom: 0.7em;
-  margin-top: 2em;
-}
-
 .navLink {
   text-decoration: none;
   color: black;

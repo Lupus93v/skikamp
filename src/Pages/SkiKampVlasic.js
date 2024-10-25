@@ -1,4 +1,5 @@
 import React from "react"
+import { NavLink } from "react-router-dom"
 
 export default function SkiKampVlasic() {
 
@@ -15,7 +16,7 @@ export default function SkiKampVlasic() {
                 <li>Обилазак планине Влашић</li>
             </ol>
             <div className="button-container">
-                <button>Пријави се</button>
+                <NavLink className="apply-btn" to="/apply">Пријави се</NavLink>
             </div>
         </div>
     )

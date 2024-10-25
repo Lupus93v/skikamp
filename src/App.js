@@ -11,6 +11,7 @@ import Coaches from "./Pages/Coaches"
 import AboutClub from "./Pages/AboutClub"
 import SkiKampVlasic from "./Pages/SkiKampVlasic"
 import TeamBuilding from "./Pages/TeamBuilding"
+import Apply from "./Pages/Apply"
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
             <Route path="aboutclub" element={<AboutClub />} />
           </Route>
           <Route path="aboutvlasic" element={<AboutVlasic />} />
+          <Route path="apply" element={<Apply />} />
         </Route>
       </Routes>
     </BrowserRouter>

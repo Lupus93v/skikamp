@@ -9,6 +9,8 @@ import AboutUs from "./Pages/AboutUs"
 import AboutVlasic from "./Pages/AboutVlasic"
 import Coaches from "./Pages/Coaches"
 import AboutClub from "./Pages/AboutClub"
+import SkiKampVlasic from "./Pages/SkiKampVlasic"
+import TeamBuilding from "./Pages/TeamBuilding"
 
 export default function App() {
   return (
@@ -16,7 +18,10 @@ export default function App() {
       <Routes>
         <Route path="/" element={<PageLayout />}>
           <Route index element={<HomePage />} />
-          <Route path="offer" element={<Offer />} />
+          <Route path="offer" element={<Offer />} >
+            <Route index element={<SkiKampVlasic />} />
+            <Route path="teambuilding" element={<TeamBuilding />} />
+          </Route>
           <Route path="gallery" element={<Gallery />} />
           <Route path="sponsors" element={<Sponsors />} />
           <Route path="aboutus" element={<AboutUs />}>

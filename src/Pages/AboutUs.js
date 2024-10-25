@@ -5,8 +5,6 @@ export default function AboutUs() {
 
     const activeStyles = {
         fontWeight: "bold",
-        fontSize: "1.3rem",
-        textDecoration: "underline",
     }
 
     return (

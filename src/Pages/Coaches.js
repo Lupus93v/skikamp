@@ -4,7 +4,36 @@ export default function Coaches() {
     
     return (
         <div className="coaches-container">
-        <h1>ТРЕНЕРИ (израда у току)</h1>
+            <div className="poster">
+                <img src="./Pictures/test.png" />
+                <h5>Дејан Благојевић</h5>
+                <h6>Нови Град</h6>
+            </div>
+            <div className="poster">
+                <img src="./Pictures/test.png" />
+                <h5>Бојан Малбашић</h5>
+                <h6>Прњавор</h6>
+            </div>
+            <div className="poster">
+                <img src="./Pictures/test.png" />
+                <h5>Александар Сантрач</h5>
+                <h6>Приједор</h6>
+            </div>
+            <div className="poster">
+                <img src="./Pictures/test.png" />
+                <h5>Љубиша Дрљача</h5>
+                <h6>Нови Град</h6>
+            </div>
+            <div className="poster">
+                <img src="./Pictures/test.png" />
+                <h5>Дарко Дуроњић</h5>
+                <h6>Прњавор</h6>
+            </div>
+            <div className="poster">
+                <img src="./Pictures/test.png" />
+                <h5>Вук Благојевић</h5>
+                <h6>Нови Град</h6>
+            </div>
         </div>
     )
 }

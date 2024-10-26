@@ -30,6 +30,7 @@ export default function HomePage() {
             style={{width: "100%", height: "auto"}}
             />
       </div>
+      <h3>Скијамо заједно од 2016. године!</h3>
     </div>
   )
 }

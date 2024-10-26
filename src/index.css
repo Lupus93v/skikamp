@@ -66,13 +66,31 @@ body {
 .home-page-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
 }
 
 .home-pic-container {
   margin-top: 2em;
   width: 90%;
-  flex-grow: 1;
+}
+
+.home-pic-container img {
+  border-radius: 5px;
+  border: solid black 2px;
+  box-shadow: 9px 9px 7px gray;
+}
+
+.home-page-container h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 5px 8px;
+  background-color: rgb(58, 119, 231);
+  color: white;
+  border-radius: 4px;
+  margin-top: -5em;
 }
 
 .offer-container {

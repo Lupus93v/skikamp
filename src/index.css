@@ -19,7 +19,6 @@ body {
   position: relative;
   overflow: visible;
   height: 70px;
-  margin-bottom: 5em;
 }
 
 .logo-container {
@@ -70,10 +69,14 @@ body {
   align-items: center;
   height: 100vh;
   text-align: center;
+  background-image: url('/public/Pictures/HomePagePic/cover.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .home-pic-container {
-  margin-top: 2em;
+  margin-top: 7em;
   width: 90%;
 }
 
@@ -97,6 +100,7 @@ body {
 .offer-container {
   display: flex;
   flex-direction: column;
+  margin-top: 5em;
 }
 
 .offer-btns {
@@ -119,6 +123,7 @@ body {
 .button-container {
   text-align: right;
   margin-top: 2em;
+  margin-bottom: 4em;
 }
 
 .apply-btn {
@@ -133,9 +138,18 @@ body {
   width: 90%
 }
 
+.gallery-container {
+  margin-top: 5em;
+}
+
+.sponsors {
+  margin-top: 5em;
+}
+
 .about-us-container {
   display: flex;
   flex-direction: column;
+  margin-top: 5em;
 }
 
 .about-us-btns {
@@ -169,6 +183,10 @@ body {
 .about-club-txt {
   width: 70%;
   margin-top: 3em;
+}
+
+.about-vlasic {
+  margin-top: 5em;
 }
 
 .about-vlasic h4 {
@@ -215,6 +233,10 @@ body {
   margin-bottom: 0.5em;
 }
 
+.apply-container {
+  margin-top: 5em;
+}
+
 .footer {
   margin-bottom: 0px;
 }
@@ -223,7 +245,6 @@ body {
   text-align: center;
   background-color: black;
   color: white;
-  margin-top: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
 }

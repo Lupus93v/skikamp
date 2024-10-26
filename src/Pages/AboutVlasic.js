@@ -7,12 +7,18 @@ export default function AboutVlasic() {
             <h4>О Влашићу</h4>
             <div className="about-vlasic-pic-txt">
                 <div className="first-column">
-                    <img src="./Pictures/AboutVlasicPic/12.png" />
-                    <img src="./Pictures/AboutVlasicPic/9.jpg" />
-                    <img src="./Pictures/AboutVlasicPic/10.jpg" />
-                    <img src="./Pictures/AboutVlasicPic/11.png" />
-                    <img src="./Pictures/AboutVlasicPic/14.png" />
-                    <img src="./Pictures/AboutVlasicPic/8.png" />
+                    <img src="./Pictures/AboutVlasicPic/12.png" alt="Image of mountain Vlasic, her nature ba
+                    eauties and ski tracks." />
+                    <img src="./Pictures/AboutVlasicPic/9.jpg" alt="Image of mountain Vlasic, her nature ba
+                    eauties and ski tracks." />
+                    <img src="./Pictures/AboutVlasicPic/10.jpg" alt="Image of mountain Vlasic, her nature ba
+                    eauties and ski tracks." />
+                    <img src="./Pictures/AboutVlasicPic/11.png" alt="Image of mountain Vlasic, her nature ba
+                    eauties and ski tracks." />
+                    <img src="./Pictures/AboutVlasicPic/14.png" alt="Image of mountain Vlasic, her nature ba
+                    eauties and ski tracks." />
+                    <img src="./Pictures/AboutVlasicPic/8.png" alt="Image of mountain Vlasic, her nature ba
+                    eauties and ski tracks." />
                 </div>
                 <div className="about-vlasic-txt">
                     <p>Влашић је планинси масив који доминира Средњом Босном, чији је највиши врх Паљеник на 1.943 метра надморске висине. Најпитомији и за туристе најинтересантнији дио Влашића је познат као Бабановац. Смјештен је на висини од 1.260 метара.</p>
@@ -21,12 +27,18 @@ export default function AboutVlasic() {
                     </p>
                 </div>
                 <div className="second-column">
-                    <img src="./Pictures/AboutVlasicPic/6.png" />
-                    <img src="./Pictures/AboutVlasicPic/3.jpg" />
-                    <img src="./Pictures/AboutVlasicPic/7.jpg" />
-                    <img src="./Pictures/AboutVlasicPic/2.jpg" />
-                    <img src="./Pictures/AboutVlasicPic/1.png" />
-                    <img src="./Pictures/AboutVlasicPic/13.png" />
+                    <img src="./Pictures/AboutVlasicPic/6.png" alt="Image of mountain Vlasic, her nature ba
+                    eauties and ski tracks." />
+                    <img src="./Pictures/AboutVlasicPic/3.jpg" alt="Image of mountain Vlasic, her nature ba
+                    eauties and ski tracks." />
+                    <img src="./Pictures/AboutVlasicPic/7.jpg" alt="Image of mountain Vlasic, her nature ba
+                    eauties and ski tracks." />
+                    <img src="./Pictures/AboutVlasicPic/2.jpg" alt="Image of mountain Vlasic, her nature ba
+                    eauties and ski tracks." />
+                    <img src="./Pictures/AboutVlasicPic/1.png" alt="Image of mountain Vlasic, her nature ba
+                    eauties and ski tracks." />
+                    <img src="./Pictures/AboutVlasicPic/13.png" alt="Image of mountain Vlasic, her nature ba
+                    eauties and ski tracks." />
                 </div>
             </div>
         </div>

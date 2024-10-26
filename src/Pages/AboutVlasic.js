@@ -7,17 +7,17 @@ export default function AboutVlasic() {
             <h4>О Влашићу</h4>
             <div className="about-vlasic-pic-txt">
                 <div className="first-column">
-                    <img src="./Pictures/AboutVlasicPic/12.png" alt="Image of mountain Vlasic, her nature ba
+                    <img src="./Pictures/AboutVlasicPic/12.png" alt="Img of mountain Vlasic, her nature ba
                     eauties and ski tracks." />
-                    <img src="./Pictures/AboutVlasicPic/9.jpg" alt="Image of mountain Vlasic, her nature ba
+                    <img src="./Pictures/AboutVlasicPic/9.jpg" alt="Img of mountain Vlasic, her nature ba
                     eauties and ski tracks." />
-                    <img src="./Pictures/AboutVlasicPic/10.jpg" alt="Image of mountain Vlasic, her nature ba
+                    <img src="./Pictures/AboutVlasicPic/10.jpg" alt="Img of mountain Vlasic, her nature ba
                     eauties and ski tracks." />
-                    <img src="./Pictures/AboutVlasicPic/11.png" alt="Image of mountain Vlasic, her nature ba
+                    <img src="./Pictures/AboutVlasicPic/11.png" alt="Img of mountain Vlasic, her nature ba
                     eauties and ski tracks." />
-                    <img src="./Pictures/AboutVlasicPic/14.png" alt="Image of mountain Vlasic, her nature ba
+                    <img src="./Pictures/AboutVlasicPic/14.png" alt="Img of mountain Vlasic, her nature ba
                     eauties and ski tracks." />
-                    <img src="./Pictures/AboutVlasicPic/8.png" alt="Image of mountain Vlasic, her nature ba
+                    <img src="./Pictures/AboutVlasicPic/8.png" alt="Img of mountain Vlasic, her nature ba
                     eauties and ski tracks." />
                 </div>
                 <div className="about-vlasic-txt">
@@ -27,17 +27,17 @@ export default function AboutVlasic() {
                     </p>
                 </div>
                 <div className="second-column">
-                    <img src="./Pictures/AboutVlasicPic/6.png" alt="Image of mountain Vlasic, her nature ba
+                    <img src="./Pictures/AboutVlasicPic/6.png" alt="Img of mountain Vlasic, her nature ba
                     eauties and ski tracks." />
-                    <img src="./Pictures/AboutVlasicPic/3.jpg" alt="Image of mountain Vlasic, her nature ba
+                    <img src="./Pictures/AboutVlasicPic/3.jpg" alt="Img of mountain Vlasic, her nature ba
                     eauties and ski tracks." />
-                    <img src="./Pictures/AboutVlasicPic/7.jpg" alt="Image of mountain Vlasic, her nature ba
+                    <img src="./Pictures/AboutVlasicPic/7.jpg" alt="Img of mountain Vlasic, her nature ba
                     eauties and ski tracks." />
-                    <img src="./Pictures/AboutVlasicPic/2.jpg" alt="Image of mountain Vlasic, her nature ba
+                    <img src="./Pictures/AboutVlasicPic/2.jpg" alt="Img of mountain Vlasic, her nature ba
                     eauties and ski tracks." />
-                    <img src="./Pictures/AboutVlasicPic/1.png" alt="Image of mountain Vlasic, her nature ba
+                    <img src="./Pictures/AboutVlasicPic/1.png" alt="Img of mountain Vlasic, her nature ba
                     eauties and ski tracks." />
-                    <img src="./Pictures/AboutVlasicPic/13.png" alt="Image of mountain Vlasic, her nature ba
+                    <img src="./Pictures/AboutVlasicPic/13.png" alt="Img of mountain Vlasic, her nature ba
                     eauties and ski tracks." />
                 </div>
             </div>

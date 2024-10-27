@@ -166,21 +166,21 @@ body {
 }
 
 .coaches-container {
-  width: 90%;
-  margin-top: 5em;
-  margin-bottom: 5em;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   gap: 10px;
+  width: 90%;
+  margin: 2em auto;
 }
 
 .poster {
-  width: 45%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: solid black 1px;
-  padding: 0.5em;
+  flex: 1 1 200px;
+  min-width: 9em;
+  max-width: 10em;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
 }
 
 .poster img {

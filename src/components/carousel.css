@@ -8,6 +8,7 @@
 
 .slide {
     width: 100%;
+    padding: 1em;
 }
 
 .slide-hidden {
@@ -16,8 +17,8 @@
 
 .arrow {
     position: absolute;
-    width: 3em;
-    height: 3em;
+    width: 2.5em;
+    height: 2.5em;
     color: white;
     filter: drop-shadow(0px 0px 5px #555);
 }
@@ -33,7 +34,7 @@
 .indicators {
     display: flex;
     position: absolute;
-    bottom: 2em;
+    bottom: 5em;
 }
 
 .indicator {
@@ -50,3 +51,29 @@
 .indicator-inactive {
     background-color: grey;
 }
+
+.carousel-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 4em;
+    right: 2em;
+    background-color: white;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    z-index: 1100;
+    border-radius: 100%;
+  }
+  

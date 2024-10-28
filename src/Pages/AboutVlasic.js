@@ -1,9 +1,28 @@
 import React from "react"
+import Carousel from "../components/Carousel";
+import "../components/carousel.css"
+
+
+const slides = [
+    "./Pictures/AboutVlasicPic/12.png",
+    "./Pictures/AboutVlasicPic/9.jpg",
+    "./Pictures/AboutVlasicPic/10.jpg",
+    "./Pictures/AboutVlasicPic/11.png",
+    "./Pictures/AboutVlasicPic/14.png",
+    "./Pictures/AboutVlasicPic/8.png",
+    "./Pictures/AboutVlasicPic/6.png",
+    "./Pictures/AboutVlasicPic/3.jpg",
+    "./Pictures/AboutVlasicPic/7.jpg",
+    "./Pictures/AboutVlasicPic/2.jpg",
+    "./Pictures/AboutVlasicPic/1.png",
+    "./Pictures/AboutVlasicPic/13.png",
+]
 
 export default function AboutVlasic() {
 
     return (
         <div className="about-vlasic">
+            <Carousel data={slides}/>
             <h4>О Влашићу</h4>
             <div className="about-vlasic-pic-txt">
                 <div className="first-column">

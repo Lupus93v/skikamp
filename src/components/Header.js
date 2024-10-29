@@ -13,7 +13,9 @@ export default function Header() {
                 </Link>
             </div>
 
-            <div className="left-space"></div>
+            <div className="left-space">
+            <img className="insta-logo" src="./Pictures/insta-logo.png" href="https://www.instagram.com/klubljubiteljaskijanja_snjesko?igsh=MTBoMHpuZTU1aGlvdg==" target="_blanc" alt="logo of instagram"/>
+            </div>
         </header>
     )
 }

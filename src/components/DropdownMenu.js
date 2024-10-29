@@ -6,9 +6,9 @@ export default function DropdownMenu() {
 
     const [isOpen, setIsOpen] = useState(false)
 
-    const toggleDropdown = (() => {
+    const toggleDropdown = () => {
         setIsOpen(!isOpen)
-    })
+    }
 
     const closeDropdown = () => {
         setIsOpen(false)

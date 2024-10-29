@@ -5,7 +5,6 @@
 
 body {
   margin: auto;
-  background-color: white;
   border: solid black 1px;
   background-image: url('/public/Pictures/HomePagePic/cover.png');
   background-size: cover;
@@ -16,39 +15,47 @@ body {
 .header {
   background-color: black;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
-  padding-left: 1em;
-  position: relative;
-  overflow: visible;
   height: 70px;
+  margin-bottom: 7em;
+}
+
+.header .left-space {
+  width: 20%;
+}
+
+.header .menu-button {
+  width: 5%;
 }
 
 .logo-container {
-  position: absolute;
-  transform: scale(1.5);
-  top: 1.5em;
-  margin-left: 2em;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 9em;
+  margin-bottom: 30em;
+  margin-right: -1em;
 }
 
 .logo-container img {
-  border: solid black 1px;
-  width: 90px !important;
+  width: 70%;
   height: auto;
-  padding-top: 1.3em;
-  padding-bottom: 1.3em;
-  padding-left: 0.1em;
-  padding-right: 0.1em;
-  border-radius: 80px;
+  padding: 1.5em 0.1em;
   background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 60px;
+  border: solid black 1px;
 }
 
 .menu-button {
   position: relative;
-  display: inline-block;
-  width: 9em;
-  margin-right: 30px;
+  z-index: 10;
+  margin-right: 5.5em;
+  margin-left: 1em;
   background-color: white;
   text-align: center;
   border-radius: 2px;
@@ -71,7 +78,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   text-align: center;
   background-image: url('/public/Pictures/HomePagePic/cover.png');
   background-size: cover;
@@ -80,8 +86,8 @@ body {
 }
 
 .home-pic-container {
-  margin-top: 7em;
-  width: 90%;
+  width: 80%;
+  margin-bottom: 2em;
 }
 
 .home-pic-container img {
@@ -99,7 +105,7 @@ body {
   background-color: rgb(58, 119, 231);
   color: white;
   border-radius: 4px;
-  margin-top: -5em;
+  margin-bottom: 3em;
 }
 
 .offer-container {
@@ -413,13 +419,30 @@ ol {
     height: 2.5em;
   }
 
-  .home-pic-container {
-    max-width: 60%;
-  }
+.home-pic-container {
+  margin-top: 5em;
+  width: 80%;
+  margin-bottom: 10em;
+}
 
-  .home-pic-container img {
-    max-width: 100%;
-  }
+.home-pic-container img {
+  border-radius: 5px;
+  border: solid black 2px;
+  box-shadow: 9px 9px 7px gray;
+  padding: 0.5em
+}
+
+.home-page-container h3 {
+  font-family: "DynaPuff";
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 5px 8px;
+  background-color: rgb(58, 119, 231);
+  color: white;
+  border-radius: 4px;
+  margin-top: -5em;
+  margin-bottom: 5em;
+}
 
   .offer-btns {
     margin-left: 4em;

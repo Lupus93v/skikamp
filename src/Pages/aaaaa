@@ -1,0 +1,30 @@
+
+.header {
+  background-color: black;
+  display: flex;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  padding-left: 1em;
+  position: relative;
+  overflow: visible;
+  height: 70px;
+  margin-bottom: 7em;
+}
+
+.logo-container {
+  position: absolute;
+  transform: scale(1.5);
+  top: 2.5em;
+}
+
+.logo-container img {
+  border: solid black 1px;
+  width: 30% !important;
+  height: auto;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  border-radius: 80px;
+  background-color: white;
+}

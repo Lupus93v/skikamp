@@ -272,6 +272,7 @@ body {
 .footer {
   margin-bottom: 0px;
   margin-top: 0.5em;
+  bottom: 0;
 }
 
 .footer p {

@@ -15,47 +15,29 @@ body {
 .header {
   background-color: black;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
   height: 70px;
   margin-bottom: 7em;
 }
 
-.header .left-space {
-  width: 20%;
-}
-
-.header .menu-button {
-  width: 5%;
-}
-
 .logo-container {
-  width: 50px;
-  display: flex;
-  justify-content: center;
-  margin-top: 9em;
-  margin-bottom: 30em;
-  margin-right: -1em;
+  justify-self: center;
+  margin-left: -1em;
 }
 
 .logo-container img {
-  width: 70%;
+  width: 150px;
   height: auto;
-  padding: 1.5em 0.1em;
+  padding: 35px 2px;
   background-color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-radius: 60px;
+  border-radius: 70px;
   border: solid black 1px;
 }
 
 .menu-button {
   position: relative;
   z-index: 10;
-  margin-right: 5.5em;
-  margin-left: 1em;
   background-color: white;
   text-align: center;
   border-radius: 2px;
@@ -123,7 +105,7 @@ body {
   color: black;
   border-bottom: solid black 1px;
   border-top: solid black 1px;
-  box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
   margin: 0.4em
 }
 
@@ -172,7 +154,7 @@ body {
   color: black;
   border-top: solid black 1px;
   border-bottom: solid black 1px;
-  box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
   margin: 0.4em
 }
 
@@ -204,7 +186,7 @@ body {
   color: black;
   border-top: solid black 1px;
   border-bottom: solid black 1px;
-  box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
   margin: auto;
   text-align: center;
   width: 10em;
@@ -235,7 +217,7 @@ body {
   color: black;
   border-top: solid black 1px;
   border-bottom: solid black 1px;
-  box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
   margin: auto;
   text-align: center;
   width: 10em;
@@ -263,6 +245,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 25%;
+  margin-bottom: 3em;
 }
 
 .about-vlasic-pic-txt img {
@@ -272,6 +255,14 @@ body {
   border: solid black 1px;
   margin-top: 0.5em;
   margin-bottom: 2em;
+}
+
+.close-button,
+.arrow, 
+.arrow-left,
+.arrow-right,
+.indicators:hover {
+  cursor: pointer;
 }
 
 .apply-container {
@@ -290,6 +281,7 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
 .dropdownItem {
   padding: 10px 20px;
   display: inline-block;
@@ -319,7 +311,7 @@ body {
   color: black;
   border-top: solid black 1px;
   border-bottom: solid black 1px;
-  box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
   margin: auto;
   text-align: center;
   width: 10em;
@@ -374,37 +366,42 @@ ol {
 }
 
 .dropdownItem:hover::after {
-  width: 100%; /* On hover, the underline will stretch to the full width */
+  width: 100%;
 }
 
-
+/* -------------------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 480px) {
 
   .header {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-between;
     background-color: black;
   }
 
-  .nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  .logo-container {
+    left: -10em;
+  }
+  
+  .logo-container img {
+    width: 200px;
+    height: auto;
+    padding: 45px 2px;
     background-color: white;
+    border-radius: 100px;
+    border: solid black 1px;
+    margin-left: -22em;
+
   }
 
-  
-.menu-button {
-  position: relative;
-  display: inline-block;
-  width: 10em;
-  margin-right: 70px;
-  background-color: white;
-  text-align: center;
-  border-radius: 2px;
-}
+  .menu-button {
+    width: 10em;
+    background-color: white;
+    text-align: center;
+    border-radius: 2px;
+    right: -7em;
+  }
 
   .navLink {
     text-decoration: none;
@@ -419,30 +416,30 @@ ol {
     height: 2.5em;
   }
 
-.home-pic-container {
-  margin-top: 5em;
-  width: 80%;
-  margin-bottom: 10em;
-}
+  .home-pic-container {
+    margin-top: 1em;
+    width: 60%;
+    margin-bottom: 10em;
+  }
 
-.home-pic-container img {
-  border-radius: 5px;
-  border: solid black 2px;
-  box-shadow: 9px 9px 7px gray;
-  padding: 0.5em
-}
+  .home-pic-container img {
+    border-radius: 5px;
+    border: solid black 2px;
+    box-shadow: 9px 9px 7px gray;
+    padding: 0.5em
+  }
 
-.home-page-container h3 {
-  font-family: "DynaPuff";
-  font-size: 1.3rem;
-  font-weight: bold;
-  padding: 5px 8px;
-  background-color: rgb(58, 119, 231);
-  color: white;
-  border-radius: 4px;
-  margin-top: -5em;
-  margin-bottom: 5em;
-}
+  .home-page-container h3 {
+    font-family: "DynaPuff";
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 5px 8px;
+    background-color: rgb(58, 119, 231);
+    color: white;
+    border-radius: 4px;
+    margin-top: -5em;
+    margin-bottom: 5em;
+  }
 
   .offer-btns {
     margin-left: 4em;
@@ -455,13 +452,13 @@ ol {
     border-bottom: solid black 1px;
     margin: 2em;
     padding: 0.5em 3em;
-    box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
   }
 
   .about-us-btns {
     margin-left: 4em;
   }
-  
+
   .about-us-btn {
     text-decoration: none;
     color: black;
@@ -469,15 +466,20 @@ ol {
     border-bottom: solid black 1px;
     margin: 2em;
     padding: 0.5em 3em;
-    box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
   }
+
+  
+.carousel-overlay img{
+  width: 40%;
+}
 
   .about-vlasic-pic-txt {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
-  
+
   .first-column {
     display: flex;
     flex-direction: row;
@@ -496,10 +498,15 @@ ol {
     flex-direction: row;
     width: 95%;
   }
-  
+
   .about-vlasic-pic-txt img {
     width: 15%;
     margin: 0 0.4em;
+  }
+
+  .close-button {
+    margin-top: -2em;
+    margin-right: 2em;
   }
 
 }

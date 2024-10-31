@@ -77,8 +77,8 @@ body, html {
 }
 
 .home-pic-container {
-  width: 80%;
-  margin-bottom: 2em;
+  width: 360px;
+  height: 350px;
 }
 
 .home-pic-container img {
@@ -96,7 +96,7 @@ body, html {
   background-color: rgb(58, 119, 231);
   color: white;
   border-radius: 4px;
-  margin-bottom: 3em;
+  margin-bottom: 7em;
 }
 
 .offer-container {
@@ -178,16 +178,16 @@ body, html {
 
 .poster {
   flex: 1 1 200px;
-  min-width: 9em;
-  max-width: 10em;
+  max-width: 160px;
+  height: 160px;
   padding: 10px;
   text-align: center;
   border: 1px solid black;
 }
 
 .poster img {
-  width: 100%;
-  margin-bottom: 0.3em;
+  width: 75px;
+  margin-bottom: 0.5em;
 }
 
 .coaches-container h1 {
@@ -282,14 +282,15 @@ body, html {
   position: relative;
   bottom: 0;
   width: 100%;
+  margin-bottom: 0px;
 }
 
 .footer p {
   text-align: center;
   background-color: black;
   color: white;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .dropdownItem {
@@ -448,7 +449,8 @@ ol {
 
   .home-pic-container {
     margin-top: 2em;
-    width: 60%;
+    width: 800px;
+    height: 720px;
     margin-bottom: 10em;
   }
 
@@ -461,7 +463,7 @@ ol {
 
   .home-page-container h3 {
     font-family: "DynaPuff";
-    font-size: 1.3rem;
+    font-size: 2.3rem;
     font-weight: bold;
     padding: 5px 8px;
     background-color: rgb(58, 119, 231);

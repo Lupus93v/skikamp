@@ -99,6 +99,17 @@ body, html {
   margin-bottom: 7em;
 }
 
+.gallery {
+  width: 90%;
+}
+
+.gallery img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
 .offer-container {
   display: flex;
   flex-direction: column;

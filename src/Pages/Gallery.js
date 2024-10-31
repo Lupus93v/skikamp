@@ -1,10 +1,20 @@
 import React from "react"
+import { NavLink, Outlet } from "react-router-dom"
 
 export default function Gallery() {
 
+    const activeStyles = {
+        fontWeight: "bold",
+    }
+
     return (
         <div className="gallery-container">
-            <h1>ГАЛЕРИЈА (израда у току)</h1>
+            <div className="gallery-buttons">
+                <NavLink className="about-us-btn" style={({ isActive }) => isActive ? activeStyles : null} to="." end>Слике 2024. година</NavLink>
+            </div>
+            <div>
+                <Outlet />
+            </div>
         </div>
     )
 }

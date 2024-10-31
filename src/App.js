@@ -12,6 +12,7 @@ import AboutClub from "./Pages/AboutClub"
 import SkiKampVlasic from "./Pages/SkiKampVlasic"
 import TeamBuilding from "./Pages/TeamBuilding"
 import Apply from "./Pages/Apply"
+import Img2024 from "./Pages/Img2024"
 
 export default function App() {
   return (
@@ -23,7 +24,9 @@ export default function App() {
             <Route index element={<SkiKampVlasic />} />
             <Route path="teambuilding" element={<TeamBuilding />} />
           </Route>
-          <Route path="gallery" element={<Gallery />} />
+          <Route path="gallery" element={<Gallery />}>
+            <Route index element={<Img2024 />} />
+          </Route>
           <Route path="sponsors" element={<Sponsors />} />
           <Route path="aboutus" element={<AboutUs />}>
             <Route index element={<Coaches />} />

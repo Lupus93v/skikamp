@@ -99,17 +99,6 @@ body, html {
   margin-bottom: 7em;
 }
 
-.gallery {
-  width: 90%;
-}
-
-.gallery img {
-  max-width: 100px;
-  height: auto;
-  display: block;
-  margin: 10px 0;
-}
-
 .offer-container {
   display: flex;
   flex-direction: column;
@@ -151,6 +140,17 @@ body, html {
   width: 90%
 }
 
+.gallery {
+  width: 90%;
+}
+
+.gallery img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
 .sponsors {
   display: flex;
   flex-wrap: wrap;
@@ -186,6 +186,7 @@ body, html {
 
 .about-us-btns {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .about-us-btn {
@@ -194,7 +195,7 @@ body, html {
   border-top: solid black 1px;
   border-bottom: solid black 1px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
-  margin: 0.4em
+  margin: 0.4em;
 }
 
 .coaches-container {
@@ -374,8 +375,8 @@ body, html {
   gap: 10px;
   width: 90%;
   margin: 2em auto;
-  padding-bottom: 2em; /* Adds space for content without overflow */
-  background-color: rgba(255, 255, 255, 0.8); /* Optional for better readability */
+  padding-bottom: 2em;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .contacts .poster {
@@ -383,11 +384,11 @@ body, html {
   text-align: center;
   border: 1px solid black;
   padding: 1em;
-  background-color: white; /* Ensures clear poster background */
+  background-color: white;
 }
 
 .contacts .poster:last-child {
-  margin-bottom: 0; /* Prevents overflow and unexpected spacing */
+  margin-bottom: 0;
 }
 
 .about-vlasic, .apply-container, .footer {

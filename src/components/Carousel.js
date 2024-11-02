@@ -3,7 +3,7 @@ import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs"
 import { useState } from "react"
 import "./carousel.css"
 
-export default function Carousel({ data, idx, onClose, initialIndex = 0 }) {
+export default function Carousel({ data, onClose, initialIndex = 0 }) {
 
     const [slide, setslide] = useState(initialIndex);
 

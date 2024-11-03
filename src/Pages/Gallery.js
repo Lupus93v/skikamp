@@ -1,6 +1,44 @@
-import React from "react"
-import { NavLink, Outlet } from "react-router-dom"
+import React, { useState } from "react";
+import { useNavigate, Outlet } from "react-router-dom";
 
+export default function Gallery() {
+  const navigate = useNavigate();
+  const [selectedYear, setSelectedYear] = useState("");
+
+  const handleDropdownChange = (event) => {
+    const year = event.target.value;
+    setSelectedYear(year);
+    navigate(`/gallery/${year}`);
+  };
+
+  return (
+    <div className="gallery-container">
+      <h2>Одаберите годину:</h2>
+      <select
+        value={selectedYear}
+        onChange={handleDropdownChange}
+        className="gallery-dropdown"
+      >
+        <option value=".">Изабери годину</option>
+        <option value="img2024">2024</option>
+        <option value="img2023">2023</option>
+        <option value="img2022">2022</option>
+        <option value="img2024">2021</option>
+        <option value="img2024">2020</option>
+        <option value="img2024">2019</option>
+        <option value="img2024">2018</option>
+        <option value="img2024">2017</option>
+        <option value="img2024">2016</option>
+      </select>
+      <Outlet />
+    </div>
+  );
+}
+
+
+
+
+/*
 export default function Gallery() {
 
     const activeStyles = {
@@ -25,4 +63,4 @@ export default function Gallery() {
             </div>
         </div>
     )
-}
+} */

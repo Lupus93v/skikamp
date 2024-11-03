@@ -170,7 +170,32 @@ body, html {
   gap: 0.5em;
 }
 
-.gallery-img-container {
+.gallery-container {
+  margin-left: 0.5em;
+  margin-bottom: 1em;
+}
+
+.gallery-container h2 {
+  margin-bottom: 0.5em;
+}
+
+.gallery-dropdown {
+  margin-bottom: 1em;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0.5em 0em;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.gallery-dropdown option:hover {
+  background-color: grey;
+  color:black;
+  cursor: pointer;
+}
+
+.gallery-media-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -179,6 +204,13 @@ body, html {
 }
 
 .gallery img {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
+.gallery video {
   width: 90%;
   height: auto;
   display: block;
@@ -526,7 +558,7 @@ ol {
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
   }
 
-  .gallery-img-container {
+  .gallery-media-container {
     width: 150px;
   }
 

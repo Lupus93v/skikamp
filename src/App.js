@@ -33,7 +33,7 @@ export default function App() {
             <Route path="teambuilding" element={<TeamBuilding />} />
           </Route>
           <Route path="gallery" element={<Gallery />}>
-            <Route index element={<Img2024 />} />
+            <Route path="img2024" element={<Img2024 />} />
             <Route path="img2023" element={<Img2023 />} />
             <Route path="img2022" element={<Img2022 />} />
             <Route path="img2021" element={<Img2021 />} />

@@ -21,6 +21,7 @@ import Img2019 from "./Pages/GalleryPgs/Img2019"
 import Img2018 from "./Pages/GalleryPgs/Img2018"
 import Img2017 from "./Pages/GalleryPgs/Img2017"
 import Img2016 from "./Pages/GalleryPgs/Img2016"
+import ApplyForm from "./Pages/ApplyForm"
 
 export default function App() {
   return (
@@ -50,6 +51,7 @@ export default function App() {
           </Route>
           <Route path="aboutvlasic" element={<AboutVlasic />} />
           <Route path="apply" element={<Apply />} />
+          <Route path="applyform" element={<ApplyForm />} />
         </Route>
       </Routes>
     </BrowserRouter>

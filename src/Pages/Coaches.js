@@ -39,6 +39,11 @@ export default function Coaches() {
                     <h5>Немања Дмитрашиновић</h5>
                     <h6>Козарска Дубица</h6>
                 </div>
+                <div className="poster">
+                    <img src="./Pictures/Coaches/srdjan.png" alt="Pic of choac." />
+                    <h5>Срђан Дејановић</h5>
+                    <h6>Бања Лука</h6>
+                </div>
             <div className="poster">
                 <img src="./Pictures/Coaches/vuk.jpg" alt="Pic of choac." />
                 <h5>Вук Благојевић</h5>

@@ -14,7 +14,14 @@ export default function Header() {
             </div>
 
             <div className="left-space">
-            <a href="https://www.instagram.com/klubljubiteljaskijanja_snjesko/?igsh=MTBoMHpuZTU1aGlvdg%3D%3D#" target="_blanc" rel="noopener noreferrer"><img className="insta-logo" src="/Pictures/insta-logo.png"  alt="logo of instagram"/></a>
+            <a
+            href="https://www.instagram.com/klubljubiteljaskijanja_snjesko/?igsh=MTBoMHpuZTU1aGlvdg%3D%3D#"
+            target="_blanc"
+            rel="noopener noreferrer">
+                <img className="insta-logo"
+                src="/Pictures/insta-logo.png" 
+                alt="logo of instagram"/>
+                </a>
             </div>
         </header>
     )

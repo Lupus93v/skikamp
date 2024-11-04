@@ -1,5 +1,6 @@
 import React from "react"
 import {useState, useEffect} from "react"
+import SponsorSlider from "../components/SponsorSlider";
 
 export default function HomePage() {
 
@@ -31,6 +32,7 @@ export default function HomePage() {
             />
       </div>
       <h3>Скијамо заједно од 2016. године!</h3>
+      <SponsorSlider />
     </div>
   )
 }

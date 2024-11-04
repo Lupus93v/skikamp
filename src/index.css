@@ -110,7 +110,7 @@ body, html {
 .sponsor-slider-track {
   display: flex;
   gap: 2em;
-  animation: scrollSponsors 30s linear infinite;
+  animation: scrollSponsors 15s linear infinite;
 }
 
 .sponsor-img-container {
@@ -584,6 +584,10 @@ ol {
     border-radius: 7px;
     margin-top: -5em;
     margin-bottom: 5em;
+  }
+
+  .sponsor-slider-track {
+    animation: scrollSponsors 30s linear infinite;
   }
 
   .offer-btns {

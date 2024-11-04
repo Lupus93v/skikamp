@@ -187,6 +187,7 @@ body, html {
   padding: 0.5em 0em;
   border-radius: 5px;
   font-size: 1rem;
+  cursor: "pointer"
 }
 
 .gallery-dropdown option:hover {

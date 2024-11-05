@@ -3,6 +3,12 @@ import React from "react"
 export default function Coaches() {
     
     return (
+        <div className="coaches-page">
+            <h3 style={{marginBottom: "1em", textAlign: "center"}}>Гостовање нашег тренера, Бојана Малбашића, на ТВ К3.</h3>
+        <div className="video">
+        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/DYfoNMPSAZo?si=tvBaxmQK4CVQ4xsy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
         <div className="coaches-container">
             <div className="poster">
                 <img src="./Pictures/Coaches/deks.jpg" alt="Pic of choac." />
@@ -49,6 +55,7 @@ export default function Coaches() {
                 <h5>Вук Благојевић</h5>
                 <h6>Нови Град</h6>
             </div>
+        </div>
         </div>
     )
 }

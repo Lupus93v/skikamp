@@ -18,7 +18,7 @@ app.post("/api/apply", async (req, res) => {
   // Configure Nodemailer transporter
   const transporter = nodemailer.createTransport({
     host: 'smtp.mail.yahoo.com',
-    port: 587, // Use 465 for SSL
+    port: 465, // Use 465 for SSL
     secure: false, // true for 465, false for other ports
     auth: {
       user: process.env.EMAIL_USER, // your Yahoo email

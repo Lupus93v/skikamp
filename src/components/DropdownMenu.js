@@ -50,7 +50,7 @@ export default function DropdownMenu() {
                 <NavLink className="dropdownItem" to="/aboutus" onClick={closeDropdown}>О нама</NavLink>
                 <NavLink className="dropdownItem" to="/aboutvlasic" onClick={closeDropdown}>О Влашићу</NavLink>
                 <NavLink className="dropdownItem" to="/apply" onClick={closeDropdown}>Пријави се</NavLink>
-                <NavLink className="dropdownItem" to="/applyform" onClick={closeDropdown}>Пријави се</NavLink>
+                
             </div>
         )
     }
@@ -58,3 +58,6 @@ export default function DropdownMenu() {
     )
 
 }
+/*
+<NavLink className="dropdownItem" to="/applyform" onClick={closeDropdown}>Пријави се</NavLink>
+*/

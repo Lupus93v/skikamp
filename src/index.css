@@ -286,10 +286,6 @@ body, html {
   margin-top: 2em;
 }
 
-.video {
-  border: solid black 1px;
-}
-
 .coaches-container {
   display: flex;
   flex-wrap: wrap;

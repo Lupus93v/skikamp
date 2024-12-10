@@ -9,6 +9,7 @@ export const sponsorsData = [
   { link: "https://www.tehnoprint.org/", imgSrc: "./Pictures/Sponsors/tehnoprint.jpeg" },
   { link: "https://www.eko-fisvlasic.ba/", imgSrc: "./Pictures/Sponsors/ekofis.jpeg" },
   { link: "https://www.facebook.com/p/Stomatologija-Dr-Jevri%C4%87-61559724372667/", imgSrc: "./Pictures/Sponsors/jevric.png" },
+  { link: "https://www.facebook.com/caffeolimpbar/", imgSrc: "./Pictures/Sponsors/olimp.jpeg" },
 ];
 
 export default function Sponsors() {

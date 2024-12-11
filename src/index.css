@@ -110,7 +110,7 @@ body, html {
 .sponsor-slider-track {
   display: flex;
   gap: 2em;
-  animation: scrollSponsors 10s linear infinite;
+  animation: scrollSponsors 15s linear infinite;
 }
 
 .sponsor-img-container {

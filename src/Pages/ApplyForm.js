@@ -20,13 +20,14 @@ export default function ApplyForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://skisnjesko.com/api/apply", {
+      const response = await fetch("/.netlify/functions/apply", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(formData),
       });
+      
       if (response.ok) {
         alert("Application submitted successfully!");
       } else {

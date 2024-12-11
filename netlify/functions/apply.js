@@ -19,7 +19,7 @@ exports.handler = async (event) => {
 
     const telegramToken = process.env.TELEGRAM_TOKEN;
     const chatId = process.env.TELEGRAM_CHAT_ID;
-    const message = `New Application:\n\nName: ${name}\nAge: ${age}\nHeight: ${height} cm\nWeight: ${weight} kg\nShoes Number: ${shoesnumber}\nFood Specifics: ${foodspecifics}\nOther Specifics: ${otherspecifics}\nParent's Phone: ${phone}\nChild's Phone: ${phone2}`;
+    const message = `New Application:\n\nDeparture: ${departure}\nCity: ${city}\nName: ${name}\nAge: ${age}\nHeight: ${height} cm\nWeight: ${weight} kg\nShoes Number: ${shoesnumber}\nFood Specifics: ${foodspecifics}\nOther Specifics: ${otherspecifics}\nParent's Phone: ${phone}\nChild's Phone: ${phone2}`;
 
     const url = `https://api.telegram.org/bot${telegramToken}/sendMessage`;
 

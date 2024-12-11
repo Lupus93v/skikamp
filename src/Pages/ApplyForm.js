@@ -56,9 +56,9 @@ export default function ApplyForm() {
           required
         >
           <option value="">Изаберите термин</option>
-          <option value="Term1">3. јануар - 5. јануар</option>
-          <option value="Term2">11. јануар - 13. јануар</option>
-          <option value="Term3">14. јануар - 16.јануар</option>
+          <option value="3. јануар - 5. јануар">3. јануар - 5. јануар</option>
+          <option value="11. јануар - 13. јануар">11. јануар - 13. јануар</option>
+          <option value="14. јануар - 16.јануар">14. јануар - 16.јануар</option>
         </select>
         <input
           type="text"

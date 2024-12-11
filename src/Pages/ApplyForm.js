@@ -130,7 +130,6 @@ export default function ApplyForm() {
           placeholder="Број телефона дјетета"
           value={formData.phone2}
           onChange={handleChange}
-          required
         />
         <button type="submit">Submit</button>
       </form>

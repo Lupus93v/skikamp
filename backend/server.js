@@ -9,7 +9,13 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://skisnjesko.com", // Allow only your frontend domain
+    methods: ["POST"],
+    allowedHeaders: ["Content-Type"],
+  })
+);
 app.use(bodyParser.json());
 
 // Function to send Telegram messages
@@ -31,17 +37,22 @@ async function sendTelegramMessage(message) {
 
 // POST route to handle form submission
 app.post("/api/apply", async (req, res) => {
-  const { name, age, height, weight, shoesnumber, foodspecifics, otherspecifics, phone, phone2 } = req.body;
-  
-  // Format message for Telegram
+  const {
+    name,
+    age,
+    height,
+    weight,
+    shoesnumber,
+    foodspecifics,
+    otherspecifics,
+    phone,
+    phone2,
+  } = req.body;
+
   const message = `New Application:\n\nName: ${name}\nAge: ${age}\nHeight: ${height} cm\nWeight: ${weight} kg\nShoes Number: ${shoesnumber}\nFood Specifics: ${foodspecifics}\nOther Specifics: ${otherspecifics}\nParent's Phone: ${phone}\nChild's Phone: ${phone2}`;
 
   try {
-    // Send message to Telegram
     await sendTelegramMessage(message);
-
-    // Additional code for email notifications (if needed) goes here
-
     res.status(200).json({ message: "Application submitted successfully!" });
   } catch (error) {
     console.error("Error submitting application:", error);

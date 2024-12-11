@@ -69,7 +69,7 @@ export default function ApplyForm() {
           required
         />
         <input
-          type="number"
+          type="text"
           name="age"
           placeholder="Датум рођења"
           value={formData.age}
@@ -117,7 +117,7 @@ export default function ApplyForm() {
           required
         />
         <input 
-          type="number"
+          type="text"
           name="phone"
           placeholder="Број телефона родитеља"
           value={formData.phone}
@@ -125,7 +125,7 @@ export default function ApplyForm() {
           required
         />
         <input 
-          type="number"
+          type="text"
           name="phone2"
           placeholder="Број телефона дјетета"
           value={formData.phone2}

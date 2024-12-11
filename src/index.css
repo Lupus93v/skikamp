@@ -536,7 +536,8 @@ input {
 }
 
 select {
-  margin: 0.5em
+  margin: 0.5em;
+  margin-top: 2.5em;
 }
 
 .apply-form button {

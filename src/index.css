@@ -517,6 +517,11 @@ ol {
   width: 100%;
 }
 
+.apply-form {
+  display: flex;
+  flex-direction: column;
+}
+
 /* -------------------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 480px) {

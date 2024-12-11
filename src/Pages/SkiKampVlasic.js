@@ -16,7 +16,7 @@ export default function SkiKampVlasic() {
                 <li>Обилазак планине Влашић</li>
             </ol>
             <div className="button-container">
-                <NavLink className="apply-btn" to="/apply">Пријави се</NavLink>
+                <NavLink className="apply-btn" to="/applyform">Пријави се</NavLink>
             </div>
         </div>
     )

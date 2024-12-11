@@ -11,7 +11,6 @@ import Coaches from "./Pages/Coaches"
 import AboutClub from "./Pages/AboutClub"
 import SkiKampVlasic from "./Pages/SkiKampVlasic"
 import TeamBuilding from "./Pages/TeamBuilding"
-import Apply from "./Pages/Apply"
 import Img2024 from "./Pages/GalleryPgs/Img2024"
 import Img2023 from "./Pages/GalleryPgs/Img2023"
 import Img2022 from "./Pages/GalleryPgs/Img2022"
@@ -50,7 +49,6 @@ export default function App() {
             <Route path="aboutclub" element={<AboutClub />} />
           </Route>
           <Route path="aboutvlasic" element={<AboutVlasic />} />
-          <Route path="apply" element={<Apply />} />
           <Route path="applyform" element={<ApplyForm />} />
         </Route>
       </Routes>

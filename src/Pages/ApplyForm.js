@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 export default function ApplyForm() {
   const [formData, setFormData] = useState({
+    departure: "",
+    city: "",
     name: "",
     age: "",
     height: "",
@@ -40,8 +42,24 @@ export default function ApplyForm() {
 
   return (
     <div className="apply-form">
-      <h2>Apply for Ski Camp</h2>
+      <h2>Пријава за ски камп</h2>
       <form onSubmit={handleSubmit}>
+      <input
+          type="text"
+          name="departure"
+          placeholder="Термин"
+          value={formData.departure}
+          onChange={handleChange}
+          required
+        />
+      <input
+          type="text"
+          name="city"
+          placeholder="Град поласка"
+          value={formData.city}
+          onChange={handleChange}
+          required
+        />
         <input
           type="text"
           name="name"

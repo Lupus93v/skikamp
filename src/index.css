@@ -109,8 +109,9 @@ body, html {
 
 .sponsor-slider-track {
   display: flex;
+  width: calc(179.6px * 8);
   gap: 2em;
-  animation: scrollSponsors 15s linear infinite;
+  animation: scrollSponsors 12s linear infinite;
 }
 
 .sponsor-img-container {

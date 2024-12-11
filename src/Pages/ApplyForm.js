@@ -29,7 +29,7 @@ export default function ApplyForm() {
         },
         body: JSON.stringify(formData),
       });
-      
+
       if (response.ok) {
         alert("Application submitted successfully!");
       } else {
@@ -44,15 +44,18 @@ export default function ApplyForm() {
     <div className="apply-form">
       <h2>Пријава за ски камп</h2>
       <form onSubmit={handleSubmit}>
-      <input
-          type="text"
+        <select
           name="departure"
-          placeholder="Термин"
           value={formData.departure}
           onChange={handleChange}
           required
-        />
-      <input
+        >
+          <option value="">Изаберите термин</option>
+          <option value="Term1">3. јануар - 5. јануар</option>
+          <option value="Term2">11. јануар - 13. јануар</option>
+          <option value="Term3">14. јануар - 16.јануар</option>
+        </select>
+        <input
           type="text"
           name="city"
           placeholder="Град поласка"
@@ -84,7 +87,7 @@ export default function ApplyForm() {
           onChange={handleChange}
           required
         />
-       <input 
+        <input
           type="number"
           name="weight"
           placeholder="Тежина у килограмима"
@@ -92,7 +95,7 @@ export default function ApplyForm() {
           onChange={handleChange}
           required
         />
-        <input 
+        <input
           type="number"
           name="shoesnumber"
           placeholder="Број ципела"
@@ -100,7 +103,7 @@ export default function ApplyForm() {
           onChange={handleChange}
           required
         />
-        <input 
+        <input
           type="text"
           name="foodspecifics"
           placeholder="Специфичност исхране"
@@ -108,7 +111,7 @@ export default function ApplyForm() {
           onChange={handleChange}
           required
         />
-        <input 
+        <input
           type="text"
           name="otherspecifics"
           placeholder="Остале специфичности"
@@ -116,7 +119,7 @@ export default function ApplyForm() {
           onChange={handleChange}
           required
         />
-        <input 
+        <input
           type="text"
           name="phone"
           placeholder="Број телефона родитеља"
@@ -124,7 +127,7 @@ export default function ApplyForm() {
           onChange={handleChange}
           required
         />
-        <input 
+        <input
           type="text"
           name="phone2"
           placeholder="Број телефона дјетета"

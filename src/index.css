@@ -535,6 +535,10 @@ input {
   margin: 0.5em
 }
 
+select {
+  margin: 0.5em
+}
+
 .apply-form button {
   background-color: black;
   color: whitesmoke;

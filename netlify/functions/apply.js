@@ -4,6 +4,8 @@ exports.handler = async (event) => {
   try {
     const formData = JSON.parse(event.body);
     const {
+      departure,
+      city,
       name,
       age,
       height,

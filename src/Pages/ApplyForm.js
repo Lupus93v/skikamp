@@ -131,7 +131,7 @@ export default function ApplyForm() {
           value={formData.phone2}
           onChange={handleChange}
         />
-        <button type="submit">Submit</button>
+        <button type="submit">Пошаљи податке!</button>
       </form>
     </div>
   );

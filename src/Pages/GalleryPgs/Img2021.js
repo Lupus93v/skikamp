@@ -1,18 +1,80 @@
-import React from "react"
+import React, { useState } from "react"
+import Carousel from "../../components/Carousel";
+import "../../components/carousel.css";
 
-const images = [
-    
-  ];
 
-export default function Img2021() {
 
-    return (
-        <div className="gallery">
-          {images.map((url, index) => (
-            <img key={index} src={url} alt={`Img number ${index + 1} in the gallery`} />
-          ))}
+const mediaItems = [
+  { type: "img", src: ""},
+  { type: "img", src: ""},
+  { type: "img", src: ""},
+  { type: "img", src: ""},
+  { type: "img", src: ""},
+  { type: "img", src: ""},
+  { type: "img", src: ""},
+  { type: "img", src: ""},
+  { type: "img", src: ""},
+  { type: "img", src: ""},
+  { type: "img", src: ""},
+  { type: "img", src: ""},
+  { type: "img", src: ""},
+  { type: "img", src: ""},
+  { type: "img", src: ""},
+  { type: "img", src: ""},
+  { type: "img", src: ""},
+  { type: "img", src: ""},
+  { type: "img", src: ""},
+  { type: "img", src: ""},
+  { type: "img", src: ""},
+  { type: "img", src: ""},
+]
 
-          <h3>Израда у току!</h3>
+export default function Img2024() {
+  const [isOverlayOpen, setIsOverlayOpen] = useState(false);
+  const [initialIndex, setInitialIndex] = useState(0);
+
+  const handleMediaClick = (index) => {
+    setInitialIndex(index);
+    setIsOverlayOpen(true);
+  };
+
+
+  return (
+    <div>
+      <div className="gallery">
+        {mediaItems.map((item, idx) => (
+          <div key={idx} className="gallery-media-container">
+            {item.type === "img" ? (
+              <img
+                src={item.src}
+                alt={`Media item ${idx}`}
+                onClick={() => handleMediaClick(idx)}
+                className="thumbnail"
+              />
+            ) : (
+              <video
+                src={item.src}
+                controls
+                onClick={() => handleMediaClick(idx)}
+                className="thumbnail"
+              />
+            )}
+          </div>
+        ))}
+      </div>
+
+      {isOverlayOpen && (
+        <div className="carousel-overlay">
+          <button className="close-button" onClick={() => setIsOverlayOpen(false)}>
+            &times;
+          </button>
+          <Carousel
+            data={mediaItems.map((item) => item.src)}
+            initialIndex={initialIndex}
+            onClose={() => setIsOverlayOpen(false)}
+          />
         </div>
-    )
+      )}
+    </div>
+  );
 }

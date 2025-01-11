@@ -10,7 +10,7 @@ export default function Header() {
 
             <div className="logo-container">
                 <Link to="/">
-                    <img src="/Pictures/logo.jpg" alt="Ски Сњешко" />
+                    <img class="animate__animated animate__fadeInRight" src="/Pictures/logo.jpg" alt="Ски Сњешко" />
                 </Link>
             </div>
 
@@ -19,7 +19,7 @@ export default function Header() {
             href="https://www.instagram.com/klubljubiteljaskijanja_snjesko/?igsh=MTBoMHpuZTU1aGlvdg%3D%3D#"
             target="_blanc"
             rel="noopener noreferrer">
-                <img class="animate__animated animate__fadeInRight" className="insta-logo"
+                <img className="insta-logo"
                 src="/Pictures/insta-logo.png" 
                 alt="logo of instagram"/>
                 </a>

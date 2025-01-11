@@ -32,7 +32,7 @@ export default function HomePage() {
             style={{width: "100%", height: "auto"}}
             />
       </div>
-      <h3>Скијамо заједно од 2016. године!</h3>
+      <h3>Инспиришемо нове генерације скијаша од 2016. године!</h3>
       <a
         href="https://youtu.be/DYfoNMPSAZo?si=XdkXmuGsKQ5DN3wr"
         target="_blank"

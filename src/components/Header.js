@@ -1,6 +1,7 @@
 import React from "react"
 import DropdownMenu from "./DropdownMenu"
 import { Link } from "react-router-dom"
+import "animate.css";
 
 export default function Header() {
     return (
@@ -18,7 +19,7 @@ export default function Header() {
             href="https://www.instagram.com/klubljubiteljaskijanja_snjesko/?igsh=MTBoMHpuZTU1aGlvdg%3D%3D#"
             target="_blanc"
             rel="noopener noreferrer">
-                <img className="insta-logo"
+                <img class="animate__animated animate__fadeInRight" className="insta-logo"
                 src="/Pictures/insta-logo.png" 
                 alt="logo of instagram"/>
                 </a>

@@ -40,7 +40,7 @@ export default function HomePage() {
           padding: "0.5em",
           marginBottom: "1em",
           width: "90%"}}>
-        <img style={{width: "40%"}}src="./Pictures/HomePagePic/gostovanje.jpg" />
+        <img style={{width: "40%"}}src="./Pictures/HomePagePic/gostovanje.jpg" alt="guest at tv show"/>
       <a
         class="animate__animated animate__zoomInDown"
         href="https://youtu.be/DYfoNMPSAZo?si=XdkXmuGsKQ5DN3wr"

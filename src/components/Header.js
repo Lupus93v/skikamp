@@ -19,7 +19,7 @@ export default function Header() {
             href="https://www.instagram.com/klubljubiteljaskijanja_snjesko/?igsh=MTBoMHpuZTU1aGlvdg%3D%3D#"
             target="_blanc"
             rel="noopener noreferrer">
-                <img className="insta-logo"
+                <img style={{width: "3.5em", marginLeft: "-3.5em"}} class="animate__animated animate__fadeInUp"
                 src="/Pictures/insta-logo.png" 
                 alt="logo of instagram"/>
                 </a>

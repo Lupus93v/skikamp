@@ -33,7 +33,16 @@ export default function HomePage() {
             />
       </div>
       <h3>Инспиришемо нове генерације скијаша од 2016. године!</h3>
+      <div style={{
+          display: "flex",
+          border: "solid black 1px",
+          borderRadius: "7px",
+          padding: "0.5em",
+          marginBottom: "1em",
+          width: "90%"}}>
+        <img style={{width: "40%"}}src="./Pictures/HomePagePic/gostovanje.jpg" />
       <a
+        class="animate__animated animate__zoomInDown"
         href="https://youtu.be/DYfoNMPSAZo?si=XdkXmuGsKQ5DN3wr"
         target="_blank"
         rel="noopener noreferrer"
@@ -41,16 +50,13 @@ export default function HomePage() {
           textDecoration: "none",
           fontSize: isHovered ? "1.8rem" : "1.5rem",
           color: isHovered ? "red" : "blue",
-          border: "solid black 1px",
-          borderRadius: "7px",
-          padding: "0.5em",
-          marginBottom: "3em"
         }}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
         Гостовање нашег тренера, Бојана Малбашића, на ТВ К3!
       </a>
+      </div>
       <SponsorSlider />
     </div>
   )

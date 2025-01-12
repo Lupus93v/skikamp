@@ -41,11 +41,11 @@ export default function Coaches() {
                 <p>065/859-645</p>
             </div>
             <div className="poster">
-                    <img src="./Pictures/Coaches/marijana.jpg" alt="Pic of choac." />
-                    <h5>Маријана Граховац</h5>
-                    <h6>Козарска Дубица</h6>
-                    <p>065/413-212</p>
-                </div>
+                <img src="./Pictures/Coaches/.jpg" alt="Pic of choac." />
+                <h5>Јована Пилиповић</h5>
+                <h6>Нови Град</h6>
+                <p>066/143-724</p>
+            </div>
                 <div className="poster">
                     <img src="./Pictures/Coaches/nemanja.jpg" alt="Pic of choac." />
                     <h5>Немања Дмитрашиновић</h5>

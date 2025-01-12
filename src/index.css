@@ -4,7 +4,7 @@
 }
 
 body, html {
-  height: 100%;
+  height: 100vh;
   margin: 0;
 }
 
@@ -387,18 +387,20 @@ body, html {
 }
 
 .footer {
+  display: flex;
   position: relative;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   margin-bottom: 0px;
+  background-color: black !important;
 }
 
-.footer p {
+.footer a {
+  text-decoration: none;
   text-align: center;
+  justify-self: center;
   background-color: black;
   color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .dropdownItem {

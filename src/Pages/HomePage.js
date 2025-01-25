@@ -26,11 +26,16 @@ export default function HomePage() {
   return (
     <div className="home-page-container">
       <div className="home-pic-container">
-          <img 
+          <img className="mix-pic"
             src={images[currentImageIndex]} 
             alt="Slideshow of pictures on ski track."
             style={{width: "100%", height: "auto"}}
             />
+            <img
+            src="/Pictures/HomePagePic/img1.jpg"
+            alt="Static ski track image"
+            className="static-image"
+          />
       </div>
       <h3>Инспиришемо нове генерације скијаша од 2016. године!</h3>
       <div style={{
@@ -39,7 +44,7 @@ export default function HomePage() {
           borderRadius: "7px",
           padding: "0.5em",
           marginBottom: "1em",
-          width: "90%"}}>
+          width: "40%"}}>
         <img style={{width: "40%"}}src="./Pictures/HomePagePic/gostovanje.jpg" alt="guest at tv show"/>
       <a
         class="animate__animated animate__zoomInDown"
@@ -48,8 +53,9 @@ export default function HomePage() {
         rel="noopener noreferrer"
         style={{
           textDecoration: "none",
-          fontSize: isHovered ? "1.8rem" : "1.5rem",
+          fontSize: isHovered ? "1.6rem" : "1.5rem",
           color: isHovered ? "red" : "blue",
+          transition: "all 0.5s ease-in"
         }}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}

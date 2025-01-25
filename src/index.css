@@ -206,6 +206,7 @@ body, html {
 
 .gallery-container h2 {
   margin-bottom: 0.5em;
+  margin-top: 2em;
 }
 
 .gallery-dropdown {
@@ -513,6 +514,11 @@ ol {
 
 .apply-form h2 {
   margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.apply-form h4 {
+  text-align: center;
 }
 
 form {
@@ -520,8 +526,17 @@ form {
   flex-direction: column;
 }
 
+select {
+  height: 2em;
+}
+
+option {
+  height: 2.5em;
+}
+
 input {
-  margin: 0.5em
+  margin: 0.5em;
+  height: 2em;
 }
 
 select {

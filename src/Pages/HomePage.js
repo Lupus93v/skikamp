@@ -33,7 +33,7 @@ export default function HomePage() {
             />
             <img
             src="/Pictures/HomePagePic/img1.jpg"
-            alt="Static ski track image"
+            alt="Static ski track imge"
             className="static-image"
           />
       </div>

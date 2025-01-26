@@ -43,7 +43,7 @@ export default function HomePage() {
           border: "solid black 1px",
           borderRadius: "7px",
           padding: "0.5em",
-          marginBottom: "1em",
+          marginBottom: "4em",
           width: "40%"}}>
         <img style={{width: "40%"}}src="./Pictures/HomePagePic/gostovanje.jpg" alt="guest at tv show"/>
       <a

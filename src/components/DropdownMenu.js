@@ -36,7 +36,6 @@ export default function DropdownMenu() {
         },
     }
 
-
     return (
         <div className="menu-button">
             <button onClick={toggleDropdown} style={styles.button}>Мени</button>

@@ -6,6 +6,7 @@
 body, html {
   height: 100vh;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .site-wrapper {
@@ -46,7 +47,7 @@ body, html {
   background-color: white;
   text-align: center;
   border-radius: 2px;
-  right: -4em;
+  right: -3em;
 }
 
 
@@ -139,6 +140,7 @@ body, html {
   display: flex;
   flex-direction: column;
   margin-top: 5em;
+  height: 76vh;
 }
 
 .offer-btns {
@@ -209,6 +211,7 @@ body, html {
 .gallery-container {
   margin-left: 0.5em;
   margin-bottom: 1em;
+  height: 78vh;
 }
 
 .gallery-container h2 {
@@ -397,7 +400,6 @@ body, html {
 .footer {
   display: flex;
   position: relative;
-  bottom: 0;
   width: 100vw;
   margin-bottom: 0px;
   background-color: black !important;
@@ -617,11 +619,11 @@ select {
   }
 
  .left-space {
-  margin-left: 13em;
+  margin-left: 18em;
  }
 
   .logo-container {
-    left: -5em;
+    left: -9em;
   }
   
   .logo-container img {

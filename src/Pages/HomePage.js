@@ -37,7 +37,7 @@ export default function HomePage() {
             className="static-image"
           />
       </div>
-      <h3>Инспиришемо нове генерације скијаша од 2016. године!</h3>
+      <h3>Инспиришемо нове генерације скијаша од 2016. године! СЕЗОНА 2026 ЈЕ ОТОВРЕНА!</h3>
       <div style={{
           display: "flex",
           border: "solid black 1px",

@@ -42,7 +42,7 @@ export default function ApplyForm() {
 
   return (
     <div className="apply-form">
-      <h2>Пријава за ски камп 2025</h2>
+      <h2>Пријава за ски камп 2026</h2>
       <h4>Молимо Вас да у пријави упишете тачне податке.</h4>
       <br />
       <h4>Понуђени термини у пријави су још увијек непопуњени.</h4>
@@ -56,7 +56,13 @@ export default function ApplyForm() {
           required
         >
           <option value="">Изаберите термин</option>
-          <option value="31. јануар - 2. фебруар">31. јануар - 2. фебруар</option>
+          <option value="3. јануар - 5. јануар">3. јануар - 5. јануар</option>
+          <option value="8. јануар - 10. јануар">8. јануар - 10. јануар</option>
+          <option value="11. јануар - 13. јануар">11. јануар - 13. јануар</option>
+          <option value="15. јануар - 17. јануар">15. јануар - 17. јануар</option>
+          <option value="23. јануар - 25. јануар">23. јануар - 25. јануар</option>
+          <option value="30. јануар - 1. фебруар">30. јануар - 1. фебруар</option>
+          <option value="6. фебруар - 8. фебруар">6. фебруар - 8. фебруар</option>
         </select>
         <input
           type="text"

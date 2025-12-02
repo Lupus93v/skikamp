@@ -655,7 +655,7 @@ select {
     font-family: "DynaPuff";
     font-size: 2rem;
     font-weight: bold;
-    color: whitesmoke;
+    color: rgb(255, 0, 0);
     margin-top: 2em;
     margin-bottom: 10em;
     margin-left: 5em;

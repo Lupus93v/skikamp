@@ -21,6 +21,7 @@ import Img2018 from "./Pages/GalleryPgs/Img2018"
 import Img2017 from "./Pages/GalleryPgs/Img2017"
 import Img2016 from "./Pages/GalleryPgs/Img2016"
 import ApplyForm from "./Pages/ApplyForm"
+import PrivacyPolicy from "./Pages/PrivacyPolicy"
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<PageLayout />}>
           <Route index element={<HomePage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="offer" element={<Offer />} >
             <Route index element={<SkiKampVlasic />} />
             <Route path="teambuilding" element={<TeamBuilding />} />

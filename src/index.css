@@ -414,6 +414,16 @@ body, html {
   color: white;
 }
 
+#policy {
+  font-size: xx-small;
+}
+
+#h3privacy{ 
+  color:black;
+  margin-top: 200px;
+  margin-bottom: 49vh;
+}
+
 .dropdownItem {
   padding: 10px 20px;
   display: inline-block;

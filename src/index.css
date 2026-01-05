@@ -100,6 +100,11 @@ body, html {
         font-size: 1.3rem;
         margin-top: 10px;
         margin-bottom: 20px;
+        text-shadow: 2px 2px 4px black;
+  }
+
+  .animate__animated.animate__pulse {
+    animation-duration:unset
   }
 
   .info-btn {
@@ -113,17 +118,20 @@ body, html {
 }
 
 .bubble {
-  position: relative;
-  width: 130%;
-  padding: 0.5em;
-  background-color: white;
+  position: absolute;
+  top: 3rem;          /* udaljenost od dugmeta */
+  right: 0;
+
+  background: white;
   border: 1px solid black;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-  left: -190px;
-  top: -210px;
-  font-size: 1.08rem;
+  border-radius: 8px;
+  padding: 1em;
+  width: 220px;
+
+  z-index: 100;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
+
 
 
 #home-apply-btn {
@@ -740,17 +748,11 @@ select {
   }
 
   .bubble {
-  position: relative;
-  width: 70%;
-  font-size: 1.5rem;
-  font-weight: bold;
-  padding: 1em;
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-  left: -400px;
-  top: -140px;
+  position: absolute;         /* udaljenost od dugmeta */
+  right:500px;
+  width: 520px;
+  font-size:x-large;
+  top: -100px;
 }
 
   #home-apply-btn {

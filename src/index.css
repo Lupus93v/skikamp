@@ -114,14 +114,15 @@ body, html {
 
 .bubble {
   position: relative;
-  max-width: 100%;
-  padding: 1em;
+  width: 130%;
+  padding: 0.5em;
   background-color: white;
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-  left: -170px;
-  top: -140px;
+  left: -190px;
+  top: -210px;
+  font-size: 1.08rem;
 }
 
 
@@ -737,6 +738,20 @@ select {
         margin-top: 10px;
         margin-bottom: 100px;
   }
+
+  .bubble {
+  position: relative;
+  width: 70%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1em;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  left: -400px;
+  top: -140px;
+}
 
   #home-apply-btn {
     width: 250px;

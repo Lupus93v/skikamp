@@ -114,23 +114,14 @@ body, html {
 
 .bubble {
   position: relative;
-  max-width: 120%;
+  max-width: 100%;
   padding: 1em;
   background-color: white;
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-}
-
-/* mali "rep" oblačića */
-.bubble::after {
-  content: "";
-  position: absolute;
-  top: -10px;
-  left: 20px;
-  border-width: 0 10px 10px 10px;
-  border-style: solid;
-  border-color: transparent transparent white transparent;
+  left: -170px;
+  top: -140px;
 }
 
 

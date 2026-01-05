@@ -723,7 +723,7 @@ select {
   }
 
   .head-title {
-    margin-top: -36em;
+    margin-top: -43em;
     margin-bottom: 25em;
   }
 
@@ -751,7 +751,7 @@ select {
 
   .bubble {
   position: absolute;         /* udaljenost od dugmeta */
-  right:500px;
+  right:700px;
   width: 520px;
   font-size:x-large;
   top:200px;

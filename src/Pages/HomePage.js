@@ -1,5 +1,5 @@
 import React from "react"
-import {useState, useEffect} from "react"
+import {useState} from "react"
 import SponsorSlider from "../components/SponsorSlider";
 import { NavLink } from "react-router-dom"
 

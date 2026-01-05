@@ -95,6 +95,45 @@ body, html {
   margin-left: 4.6em;
 }
 
+.home-page-container h2 {
+    color: darkorange;
+        font-size: 1.3rem;
+        margin-top: 10px;
+        margin-bottom: 20px;
+  }
+
+  .info-btn {
+  padding: 0.6em 1.2em;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+
+.bubble {
+  position: relative;
+  max-width: 120%;
+  padding: 1em;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* mali "rep" oblačića */
+.bubble::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  border-width: 0 10px 10px 10px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}
+
+
 #home-apply-btn {
   width: 140px;
   height: 40px;
@@ -688,16 +727,37 @@ select {
     font-family: "DynaPuff";
     font-size: 2rem;
     font-weight: bold;
-    color: rgb(255, 0, 0);
-    margin-top: 2em;
-    margin-bottom: 10em;
-    margin-left: 5em;
+    color: darkorange;
+    margin-top: -17.2em;
+    margin-bottom: 13em;
+    margin-left: 8em;
+    text-shadow: 3px 3px 2px black;
     animation-name: alert;
     animation-duration: 3s;
     animation-delay: 1.5s;
     animation-timing-function: ease-in;
     animation-direction: alternate;
     animation-fill-mode: both;
+  }
+
+  .home-page-container h2 {
+    color: black;
+        font-size: 2.3rem;
+        margin-top: 10px;
+        margin-bottom: 100px;
+  }
+
+  #home-apply-btn {
+    width: 250px;
+    height: auto;
+    padding: 15px 25px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+  }
+
+  .button-container .apply-btn {
+    background-color: darkorange;
+    color: black
   }
 
   @keyframes alert {

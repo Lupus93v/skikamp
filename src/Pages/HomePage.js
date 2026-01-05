@@ -21,8 +21,10 @@ export default function HomePage() {
             className="static-image"
           />
       </div>
+      <div className="head-title">
       <h3>Инспиришемо нове генерације скијаша од 2016. године!</h3>
       <h3>Школа скијања за дјецу и одрасле.</h3>
+      </div>
       <h2>СЕЗОНА 2026 ЈЕ ОТВОРЕНА!</h2>
       <div style={{
         display: "flex",
@@ -59,7 +61,7 @@ export default function HomePage() {
         justifyContent: "space-between",
         width: "45%",
         height: "110px",
-        position: "relative",
+        marginTop: "-1px"
       }}>
         <button className="info-btn" onClick={() => setShowBubble(!showBubble)} id="home-apply-btn">ВИДИ ТЕРМИНЕ</button>
         {showBubble && (

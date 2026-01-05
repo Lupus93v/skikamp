@@ -84,14 +84,17 @@ body, html {
   height: auto;
 }
 
-.home-page-container h3 {
+.head-title {
+  margin-top: -2.3em;
+  margin-bottom: 1em;
+}
+
+.head-title h3 {
   width: 90%;
   font-size: 0.74rem;
   font-weight: bold;
   color: black;
   border-radius: 7px;
-  margin-bottom: 1.5em;
-  margin-top: -7em;
   margin-left: 4.6em;
 }
 

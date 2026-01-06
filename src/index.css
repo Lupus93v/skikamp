@@ -134,6 +134,7 @@ body, html {
 
 
 #home-apply-btn {
+  font-size: 0.8rem;
   width: 140px;
   height: 40px;
   background-color: darkorange;
@@ -142,7 +143,8 @@ body, html {
   text-decoration: none;
   border: none;
   border-radius: 40px;
-  padding: 7px 14px;
+  padding: 6px 12px;
+  margin: 4px 6px;
 }
 
 .sponsor-slider {
@@ -773,8 +775,9 @@ select {
     width: 250px;
     height: auto;
     padding: 15px 25px;
-    margin-top: 15px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 90px;;
   }
 
   .button-container .apply-btn {

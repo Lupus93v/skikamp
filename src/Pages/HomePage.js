@@ -76,8 +76,8 @@ export default function HomePage() {
             6. фебруар - 8. фебруар
           </p></div>
         )}
+        <NavLink id="home-apply-btn" to="/offer">ВИДИ ЦИЈЕНУ</NavLink>
         <NavLink id="home-apply-btn" to="/applyform">ПРИЈАВИ СЕ</NavLink>
-      
       </div>
       </div>
       <SponsorSlider />

@@ -14,10 +14,12 @@ export default function SkiKampVlasic() {
                 <li>Обуку полазника (почетна и напредна карвинг техника) са лиценцираним инструкторима скијања</li>
                 <li>Фото и видео документација усвојеног скијашког знања</li>
                 <li>Обилазак планине Влашић</li>
+                <li>Још изненађења</li>
             </ol>
             <div className="button-container">
                 <NavLink className="apply-btn" to="/applyform">Пријави се</NavLink>
             </div>
+            <h3>Цијена аранжмана за 2026. годину је: <span>420,00 КМ</span></h3>
         </div>
     )
 }

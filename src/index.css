@@ -225,6 +225,17 @@ body, html {
   padding: 0.5em 1.2em;
 }
 
+.ski-kamp-container h3 {
+  font-size: 0.9rem;
+}
+
+.ski-kamp-container span {
+  background-color: darkorange;
+  color: black;
+  padding: 4px 7px;
+  border-radius: 8px;
+}
+
 .team-building-container {
   width: 90%
 }
@@ -766,8 +777,8 @@ select {
   }
 
   .button-container .apply-btn {
-    background-color: darkorange;
-    color: black
+    background-color: black;
+    color: white
   }
 
   @keyframes alert {
@@ -792,6 +803,18 @@ select {
     padding: 0.5em 3em;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
   }
+
+  
+  .ski-kamp-container h3 {
+    font-size: 1.3rem;
+    margin-top: -75px;
+    margin-left: -260px;
+  }
+
+  .ski-kamp-container span {
+    color: white;
+  }
+
 
   .gallery-container h2 {
     margin-top: 5em;
